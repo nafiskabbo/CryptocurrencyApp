@@ -1,4 +1,4 @@
-package com.plcoding.cryptocurrencyapp
+package com.kabbodev.cryptocurrency
 
 import org.junit.Test
 
