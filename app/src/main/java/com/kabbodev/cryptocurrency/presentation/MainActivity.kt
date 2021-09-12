@@ -11,8 +11,11 @@ import androidx.navigation.compose.rememberNavController
 import com.kabbodev.cryptocurrency.presentation.coin_detail.CoinDetailScreen
 import com.kabbodev.cryptocurrency.presentation.coin_list.CoinListScreen
 import com.kabbodev.cryptocurrency.presentation.ui.theme.CryptocurrencyAppYTTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
